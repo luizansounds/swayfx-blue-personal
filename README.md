@@ -1,4 +1,4 @@
-# Starting point
+# swayfx-blue
 
 [![build-ublue](https://github.com/luiza1011/swayfx-blue/actions/workflows/build.yml/badge.svg)](https://github.com/luiza1011/swayfx-blue/actions/workflows/build.yml)
 
