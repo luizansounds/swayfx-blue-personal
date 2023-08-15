@@ -95,6 +95,7 @@ rpm:
     - pipewire-alsa
     - polkit-gnome
     - docker
+    - sddm
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
