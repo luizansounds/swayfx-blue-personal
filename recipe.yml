@@ -86,6 +86,17 @@ rpm:
     - waybar
     - network-manager-applet
     - grim
+    - pulseaudio-libs
+    - pulseaudio-libs
+    - pamixer
+    - playerctl
+    - pipewire
+    - pipewire-audio
+    - pipewire-pulse
+    - pipewire-alsa
+    - polkit-gnome
+    - docker
+    - 
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
