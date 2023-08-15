@@ -85,6 +85,7 @@ rpm:
     - zsh-autosuggestions
     - waybar
     - network-manager-applet
+
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
