@@ -45,7 +45,7 @@ rpm:
   - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-38/swayfx-swayfx-fedora-38.repo
   - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-38/tofik-nwg-shell-fedora-38.repo
   - https://flathub.org/repo/flathub.flatpakrepo
-  - https://copr.fedorainfracloud.org/coprs/fnux/ly/repo/fedora-38/fnux-ly-fedora-38.repo
+  
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
   # performed via rpm-ostree during the image build, and will be pre-installed
@@ -92,12 +92,9 @@ rpm:
     - pamixer
     - playerctl
     - pipewire
-    - pipewire-audio
-    - pipewire-pulse
     - pipewire-alsa
     - polkit-gnome
     - docker
-    - ly
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
