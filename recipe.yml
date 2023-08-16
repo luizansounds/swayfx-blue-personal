@@ -88,7 +88,6 @@ rpm:
     - network-manager-applet
     - grim
     - pulseaudio-libs
-    - pulseaudio-libs
     - pamixer
     - playerctl
     - pipewire
