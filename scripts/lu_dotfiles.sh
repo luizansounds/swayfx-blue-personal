@@ -5,20 +5,20 @@ toolbox create --image quay.io/toolbx-images/opensuse-toolbox:tumbleweed suse-bo
 toolbox create --image quay.io/toolbx-images/archlinux-toolbox:latest arch-box
 
 #commit
-git clone  https://github.com/Luiza1011/lu-dotfiles /var/home/luiza/.local/
+git clone  https://github.com/Luiza1011/lu-dotfiles /var/home/$USER/.local/
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.config/sway/ ~/.config/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.config/sway/ /var/home/$USER/.config/
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.config/swaync/ ~/.config/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.config/swaync/ /var/home/$USER/.config/
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.config/waybar/ ~/.config/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.config/waybar/ /var/home/$USER/.config/
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.config/rofi / ~/.config/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.config/rofi / /var/home/$USER/.config/
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.zshrc /var/home/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.zshrc /var/home/$USER
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.fonts/ /var/home/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.fonts/ /var/home/$USER
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.themes/ /var/home/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.themes/ /var/home/$USER
 
-ln -r -s /var/home/luiza/.local/lu-dotfiles/.icons/ /var/home/
+ln -r -s /var/home/$USER/.local/lu-dotfiles/.icons/ /var/home/$USER
