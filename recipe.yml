@@ -101,7 +101,6 @@ rpm:
     - sddm
     - yabridge
     - vivaldi
-    - pulseaudio
     - swaync
     - rust
     - cargo
