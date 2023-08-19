@@ -98,13 +98,14 @@ rpm:
     - pipewire-alsa
     - polkit-gnome
     - docker
-    - sddm
     - yabridge
     - vivaldi
     - swaync
     - rust
     - cargo
     - steam-devices
+    - sddm
+
 
 remove:
     - firefox
