@@ -99,7 +99,6 @@ rpm:
     - polkit-gnome
     - docker
     - yabridge
-    - vivaldi
     - swaync
     - rust
     - cargo
