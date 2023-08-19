@@ -110,7 +110,6 @@ rpm:
 remove:
     - firefox
     - firefox-langpacks
-    - pipewire-pulseaudio
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
