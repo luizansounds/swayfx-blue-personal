@@ -49,6 +49,7 @@ rpm:
   - https://copr.fedorainfracloud.org/coprs/patrickl/yabridge/repo/fedora-38/patrickl-yabridge-fedora-38.repo
   - https://raw.githubusercontent.com/Luiza1011/swayfx-blue-personal/live/vivaldi.repo
   - https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-38/erikreider-SwayNotificationCenter-fedora-38.repo
+  - https://copr.fedorainfracloud.org/coprs/lchh/navidrome/repo/fedora-38/lchh-navidrome-fedora-38.repo
   
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
