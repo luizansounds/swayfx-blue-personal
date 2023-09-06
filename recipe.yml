@@ -102,6 +102,8 @@ rpm:
     - navidrome
     - mediawriter
     - lu-blue
+    - npm
+    - node
 
 remove:
     - firefox
