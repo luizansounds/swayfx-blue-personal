@@ -103,7 +103,8 @@ rpm:
     - mediawriter
     - lu-blue
     - npm
-    - node
+    - node-js
+    - go
 
 remove:
     - firefox
