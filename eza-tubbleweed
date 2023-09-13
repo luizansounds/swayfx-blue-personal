@@ -1,0 +1,6 @@
+[opensuse-tumbleweed-oss]
+name=OpenSUSE Tumbleweed OSS
+baseurl=https://download.opensuse.org/tumbleweed/repo/oss/
+enabled=1
+gpgcheck=1
+gpgkey=https://download.opensuse.org/tumbleweed/repo/oss/repodata/repomd.xml.key
