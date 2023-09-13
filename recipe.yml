@@ -67,7 +67,6 @@ rpm:
     - neovim
     - pavucontrol
     - blueman
-    - exa
     - htop
     - mc
     - fastfetch
