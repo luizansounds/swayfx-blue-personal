@@ -72,25 +72,20 @@ rpm:
     - fastfetch
     - nemo
     - nemo-fileroller
-    - nwg-displays
     - nwg-drawer
-    - nwg-icon-picker
     - nwg-look
     - zsh
-    - thefuck
     - tmux
     - zsh-autosuggestions
     - waybar
     - network-manager-applet
     - grim
+    - pulseaudio
+    - pulseaudio-alsa
     - pulseaudio-libs
     - pamixer
     - playerctl
-    - pipewire
-    - pipewire-alsa
     - polkit-gnome
-    - docker
-    - yabridge
     - swaync
     - rust
     - cargo
@@ -98,12 +93,9 @@ rpm:
     - sddm
     - firewall-config
     - noip
-    - navidrome
     - mediawriter
     - lu-blue
-    - npm
-    - nodejs
-    - go
+    - vivaldi
 
 remove:
     - firefox
