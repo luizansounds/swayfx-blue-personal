@@ -99,3 +99,5 @@ rpm:
 remove:
     - firefox
     - firefox-langpacks
+    - pipewire-pulseaudio
+    - pipewire-alsa
