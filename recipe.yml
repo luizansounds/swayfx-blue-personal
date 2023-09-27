@@ -9,7 +9,7 @@ base-image: ghcr.io/ublue-os/base-main
 # If you use `latest`, you will be automatically updated to the next major
 # Fedora version, assuming the image you're using as your base container
 # builds with the tag (all uBlue images do this).
-fedora-version: latest
+fedora-version: 38
 # This description will be visible in the container metadata.
 description: A starting point for further customization of uBlue images. Make your own! https://universal-blue.org/tinker/make-your-own/
 # These scripts will be executed during the container build.
@@ -41,7 +41,7 @@ rpm:
   # which greatly simplifies future maintenance of your custom recipe.
   repos:
     # Example (which also demonstrates version number expansion):
-  - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
+  - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-38.repo
   - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-38/swayfx-swayfx-fedora-38.repo
   - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-38/tofik-nwg-shell-fedora-38.repo
   - https://flathub.org/repo/flathub.flatpakrepo
@@ -90,8 +90,6 @@ rpm:
     - firewall-config
     - noip
     - mediawriter
-    - lu-blue
-    - vivaldi
 
 remove:
     - firefox
