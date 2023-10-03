@@ -56,14 +56,27 @@ rpm:
   # performed via rpm-ostree during the image build, and will be pre-installed
   # at the "system level" in the final image.
   install:
-    - azote
+    - starship
+    - rust
+    - cargo    
     - python-pip
+    - go
+    - zsh
+    - zsh-autosuggestions
+    - tmux
+    
     - unrar
     - p7zip 
     - p7zip-plugins
+    
     - terminator
     - swayfx
     - rofi
+    - swaync
+    - waybar
+    - network-manager-applet
+    - sddm
+    
     - neovim
     - pavucontrol
     - blueman
@@ -72,26 +85,19 @@ rpm:
     - fastfetch
     - nemo
     - nemo-fileroller
-    - nwg-drawer
-    - nwg-look
-    - zsh
-    - tmux
-    - zsh-autosuggestions
-    - waybar
-    - network-manager-applet
     - grim
     - pamixer
     - playerctl
     - polkit-gnome
-    - swaync
-    - rust
-    - cargo
-    - steam-devices
-    - sddm
     - firewall-config
+    - steam-devices
     - noip
     - mediawriter
+    - azote
+    - nwg-drawer
+    - nwg-look
 
 remove:
     - firefox
     - firefox-langpacks
+    - pipewire-pulseaudio
